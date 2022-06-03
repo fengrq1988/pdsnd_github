@@ -12,12 +12,12 @@ IS_CONTINUE = ['y','n']
 
 def get_UserInput():
     print('Welcome to analyze the bikeshare data in the first half of 2017!')
-    # Get cityinfo   test git v1
+    # Get cityinfo   test git v4
     city = input('Please input cityname，such as \'chicago\', \'new york city\', \'washington\': ').lower()
     while city not in CITY_DIC:
         city = input ("Input message error! Please input cityname，such as \'chicago\', \'new york city\', \'washington\':").lower()
 
-    # Get Month
+    # Get Month  test git v4
     month = input('Please input month,such as \'all\', \'jan\', \'feb\', \'mar\', \'apr\', \'may\', \'june\': ').lower()
     while month not in MONTH_DIC:
         month = input('Input message error! Please input month,such as \'all\', \'jan\', \'feb\', \'mar\', \'apr\', \'may\', \'june\': ').lower()
