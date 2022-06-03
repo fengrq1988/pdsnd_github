@@ -12,7 +12,7 @@ IS_CONTINUE = ['y','n']
 
 def get_UserInput():
     print('Welcome to analyze the bikeshare data in the first half of 2017!')
-    # Get cityinfo
+    # Get cityinfo   test git v1
     city = input('Please input cityname，such as \'chicago\', \'new york city\', \'washington\': ').lower()
     while city not in CITY_DIC:
         city = input ("Input message error! Please input cityname，such as \'chicago\', \'new york city\', \'washington\':").lower()
